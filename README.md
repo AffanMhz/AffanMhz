@@ -9,7 +9,7 @@
 *"The universe is not only stranger than we imagine, it is stranger than we can imagine. But that won't stop us from trying to explore every corner of it."*
 
 [![GitHub followers](https://img.shields.io/github/followers/AffanMhz?label=Followers&style=social)](https://github.com/AffanMhz)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/affan-danish-08a144353/))
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)]([https://twitter.com/your-twitter](https://x.com/AffanMhz)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](affan2304788@st.jmi.ac.in)
 
