@@ -211,7 +211,7 @@ Whether you want to discuss the latest advances in propulsion technology, collab
 
 
 
-📧[![Contact Me](https://img.shields.io/badge/-Contact%20Me-blue?style=for-the-badge&logo=googleforms&logoColor=white)](https://yourformurl.com)
+[![Contact Me](https://img.shields.io/badge/-Contact%20Me-blue?style=for-the-badge&logo=googleforms&logoColor=white)](https://yourformurl.com)
 
 
 
