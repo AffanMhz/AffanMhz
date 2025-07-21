@@ -209,6 +209,8 @@ Whether you want to discuss the latest advances in propulsion technology, collab
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](Affan2304788@st.iitb.ac.in)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
 
+<a href="mailto:Affan2304788@st.iitb.ac.in">&#97;&#98;&#99;&#64;&#115;&#116;&#46;&#105;&#105;&#116;&#98;&#46;&#97;&#99;&#46;&#105;&#110;</a>
+
 📧 **Email**: `Affan2304788@st.iitb.ac.in`
 
 
