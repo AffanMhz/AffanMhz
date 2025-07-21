@@ -208,6 +208,7 @@ Whether you want to discuss the latest advances in propulsion technology, collab
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](Affan2304788@st.iitb.ac.in)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
+
 📧 **Email**: `Affan2304788@st.iitb.ac.in`
 
 
