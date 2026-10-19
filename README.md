@@ -1,17 +1,17 @@
-# 🚀 Affan - Embedded Systems & Space Technology Engineer
+# 🚀 Affan - RTL Design & FPGA
 
 <div align="center">
 
-![Space Header](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+![Header](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
-<h3>🛰️ Embedded Systems | Robotics | Space Exploration | Frontend Development</h3>
+<h3>🛰️ Verilog | SystemVerilog | Vivado | Functional Verification</h3>
 
-*"The universe is not only stranger than we imagine, it is stranger than we can imagine. But that won't stop us from trying to explore every corner of it."*
+*"A passing waveform is not a passing design. The checker, the golden model, and the timing report have to agree."*
 
 [![GitHub followers](https://img.shields.io/github/followers/AffanMhz?label=Followers&style=social)](https://github.com/AffanMhz)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](affan2304788@st.jmi.ac.in)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:affan2304788@st.jmi.ac.in)
 
 
 </div>
@@ -20,28 +20,25 @@
 
 ## 👨‍🚀 About Me
 
-I'm an **Embedded Systems Engineer** and **Space Technology Enthusiast** passionate about humanity's expansion into the solar system. My work bridges the gap between cutting-edge embedded systems and the harsh realities of space exploration, developing robust solutions for spacecraft attitude control, orbital logistics, and autonomous systems that will enable our species to become truly interplanetary.
+I'm an **Electronics and Communication** student at Jamia Millia Islamia, pointed at **RTL design and FPGA**. I write synchronous datapaths and control FSMs in Verilog and SystemVerilog, check them with a testbench or a Python golden model, and read the Vivado post-route report before I call a block done.
 
-When I'm not optimizing sensor fusion algorithms for CubeSats or designing cargo management systems for space stations, you'll find me contemplating the elegance of orbital mechanics and dreaming about the first human settlements on Mars.
+I interned as an embedded engineer at Flywheel Aerospace (Oct 2024 to May 2026) and did research at IIT Delhi's MDIT Lab (SeNSE) in 2026. I lead the tech team of IEEE JMI. The CubeSat ADCS work and the IIT Delhi ranging debug are still here. Both were a wrong number chased down to the cycle that produced it. That is the same job as a failing testbench.
 
 ```python
-class SpaceEngineer:
+class RtlDesigner:
     def __init__(self):
         self.name = "Affan"
-        self.mission = "Enabling humanity's journey to become a multi-planetary species"
-        self.core_skills = ["Embedded Systems", "Robotics", "Space Technology", "Frontend Dev"]
-        self.philosophy = "Every line of code is a step toward the stars"
-        
+        self.focus = "RTL design and functional verification"
+        self.core_skills = ["Verilog", "SystemVerilog", "Vivado", "Python golden models"]
+        self.philosophy = "If the hex files differ by one word, the test fails"
+
     def current_projects(self):
         return [
-            "🛰️ ADCS Systems for CubeSat Missions",
-            "🚀 Cargo Stowage Optimization for Space Stations", 
-            "🌌 Orbital Mechanics Simulation Engines",
-            "🔧 Embedded Systems for Space-Grade Applications"
+            "INT8 MAC and 4x4 dense layer, bit-exact against Python",
+            "RV32I single-cycle CPU, ModelSim",
+            "9x9 maze explorer FSM, explore then shortest exit",
+            "Basys 3 clock, stopwatch, and alarm (FSM, XDC, UART)",
         ]
-        
-    def dream_destination(self):
-        return "The surface of Mars, debugging code under alien skies 🔴"
 ```
 
 ---
@@ -50,29 +47,23 @@ class SpaceEngineer:
 
 <div align="center">
 
-### 🔧 Embedded Systems & Hardware
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/-ESP32-000000?style=flat&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-A22846?style=flat&logo=Raspberry-Pi)
+### 🔧 HDL and FPGA
+![Verilog](https://img.shields.io/badge/-Verilog-1C3A6E?style=flat)
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-0B3D91?style=flat)
+![Vivado](https://img.shields.io/badge/-Xilinx_Vivado-E31C23?style=flat)
+![Artix7](https://img.shields.io/badge/-Artix--7-333333?style=flat)
 
-### 🐍 Programming Languages
+### 🐍 Verification and scripting
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
+![Icarus](https://img.shields.io/badge/-Icarus_Verilog-555555?style=flat)
+![ModelSim](https://img.shields.io/badge/-ModelSim-0077C8?style=flat)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black)
 
-### 🚀 Space & Robotics Technologies
-![ROS](https://img.shields.io/badge/-ROS-22314E?style=flat&logo=ros&logoColor=white)
+### 🚀 Still on the bench
+![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![SPI](https://img.shields.io/badge/-SPI_%7C_I2C_%7C_UART-444444?style=flat)
+![KiCad](https://img.shields.io/badge/-KiCad-314CB0?style=flat)
 ![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
-![LoRa](https://img.shields.io/badge/-LoRa-1B8CBF?style=flat)
-![IMU](https://img.shields.io/badge/-IMU_Sensors-FF6B35?style=flat)
-
-### 🌐 Frontend & Web Technologies
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
 </div>
 
@@ -80,63 +71,95 @@ class SpaceEngineer:
 
 ## 🌟 Featured Projects
 
-### 🛰️ [Embedded ADCS System](https://github.com/AffanMhz/Learn_Sat_basics)
-**Attitude Determination & Control System for CubeSats**
+### 🛰️ INT8 MAC and 4x4 dense layer
+**Golden-model verification, then two microarchitectures in Vivado**
 
-> *Precision in the void of space - every degree matters when you're 400km above Earth.*
+> The testbench prints a pass only when every output word matches the Python integer model.
 
-- **🎯 Mission**: Developed a complete ADCS testbed using COTS components (Arduino Nano, MPU9250 IMU, LoRa modules)
-- **⚡ Achievement**: Reduced yaw drift from 5-10°/min to <0.05°/min (100-200x improvement)
-- **🔬 Innovation**: Implemented sensor fusion with magnetometer stabilization, achieving ±4.5° accuracy
-- **📡 Range**: Extended wireless telemetry range from 250m to >1km with 28ms system latency
-- **🚀 Real-world Impact**: Performance comparable to flight-ready systems for non-critical space missions
+- **🎯 Design**: Signed INT8 multiply-accumulate (16-bit product, 32-bit accumulator), a 4-tap ReLU neuron, and a 4x4 layer in SystemVerilog.
+- **🔬 Verification**: Directed corners (`-128 * 127`, `-128 * -128`, ReLU clamp) plus 10,000 random vectors. 40,000 outputs, **0 mismatches**.
+- **⚙️ Implementation**: Artix-7 `xc7a35tcpg236-1`, 10 ns constraint, out-of-context.
+- **📊 Result**: Parallel maps to **16 DSP48E1**, 1-cycle compute, Fmax **57.4 MHz** (four DSPs in series on the critical path). Folded maps to **1 DSP48E1** and a 17-cycle FSM, Fmax **90.9 MHz**. Neither netlist meets 100 MHz. That miss is part of the result.
 
-**Technologies**: `Arduino` `MPU9250` `LoRa` `Sensor Fusion` `Embedded C++` `Kalman Filtering`
-
----
-
-### 🚀 [Space Station Cargo Management System](https://github.com/AffanMhz/space-logistics)
-**Intelligent 3D Bin Packing for ISS Operations**
-
-> *On the ISS, every cubic centimeter counts. This system ensures astronauts spend time on science, not searching for supplies.*
-
-- **🎯 Mission**: Automated cargo stowage optimization reducing astronaut search time by 75%
-- **🧠 Algorithm**: Advanced 3D spatial engine with priority-based placement and collision detection
-- **📊 Efficiency**: Achieved 65%+ zone preference matching with perfect 20/20 retrieval scores
-- **⏱️ Performance**: Sub-second placement calculations for hundreds of items and containers
-- **🔄 Smart Rearrangement**: Dynamic item relocation algorithms for optimal space utilization
-
-**Technologies**: `Python` `FastAPI` `3D Geometry` `Docker` `React` `WebSocket` `Optimization Algorithms`
+**Technologies**: `SystemVerilog` `Python` `Vivado` `Icarus Verilog` `DSP48E1`
 
 ---
 
-### 🌌 [CubeSat Mission Control v2.0](https://github.com/AffanMhz/cubesat-mission-control)
-**Professional Mission Control Interface with Orbital Mechanics**
+### 🖥️ RV32I single-cycle CPU
+**Datapath and control, checked in ModelSim**
 
-> *Because monitoring spacecraft should feel as epic as the missions themselves.*
+> Every instruction finishes in one clock: fetch, decode, execute, memory, write-back.
 
-- **🎯 Mission**: Complete mission control simulation with realistic orbital mechanics
-- **🌍 Visualization**: Real-time 3D Earth rendering with accurate CubeSat orbital tracking
-- **📈 Telemetry**: Live power systems, thermal management, and ADCS data visualization
-- **🎮 Interactive**: Professional NASA-inspired interface with spacecraft command capabilities
-- **🔗 Real-time**: WebSocket-based communication for millisecond-accurate data streaming
+- **🎯 Design**: Program counter, instruction memory, 32×32 register file, immediate generator, ALU, data memory, and a split control unit (main decoder and ALU decoder).
+- **🔬 What it runs**: RV32I integer ops, loads and stores, branches, and jumps. Control mapping is the usual one: `lw` writes from memory, `sw` asserts MemWrite, `beq` redirects on Zero, `jal` writes PC+4.
+- **📊 Verification**: A cycle-accurate testbench ran a RISC-V assembly program. ALU results, register writes, memory, and PC updates were checked in ModelSim. There is no synthesis or Fmax number for this core.
 
-**Technologies**: `Three.js` `WebGL` `Chart.js` `WebSockets` `Orbital Mechanics` `FastAPI`
+**Technologies**: `Verilog` `RV32I` `Datapath` `Control unit` `ModelSim`
 
 ---
 
-### ⚙️ [STM32 Development Platform](https://github.com/AffanMhz/stm32-space-platform)
-**Space-Grade Embedded Development Environment**
+### 🧭 9×9 maze explorer
+**One FSM explores, then takes the exit**
 
-> *Building the brains that will power humanity's next giant leap.*
+> Unknown maze. Three wall sensors. Five move commands.
 
-- **🎯 Mission**: Comprehensive STM32 development platform for space applications
-- **💻 Framework**: Professional tutorials and code examples for space-grade embedded systems
-- **🛡️ Reliability**: Fault-tolerant communication protocols and error handling
-- **📚 Education**: Complete learning path from basics to advanced space system concepts
-- **🔬 Testing**: Hardware-in-the-loop simulation for space environment validation
+- **🎯 Design**: Dual-mode Verilog FSM. Explore mode marks cells in a weight matrix. Exit mode follows that matrix. One counter covers boot delay, dead-ends, and the mode switch. Moves are stop, forward, left, right, and u-turn.
+- **🔬 Verification**: ModelSim run of a full explore-and-exit on the maze in the testbench. Fixed 9×9 grid. No timing report.
 
-**Technologies**: `STM32` `HAL Libraries` `Real-time Systems` `Communication Protocols` `Space Standards`
+**Technologies**: `Verilog` `FSM` `ModelSim`
+
+---
+
+### ⏱️ Digital clock, stopwatch, and alarm
+**Multi-clock RTL on a Basys 3**
+
+> Milliseconds, a lap timer, and an alarm, on a 4-digit display and a UART line.
+
+- **🎯 Design**: BCD timebase, stopwatch FSM (`IDLE / RUN / LAP / STOP`), alarm FSM, multiplexed 7-segment scan, 8N1 UART at 115200 baud.
+- **⚡ Clocking**: Clocking Wizard divides 100 MHz into 20 MHz (datapath and UART) and 10 MHz (debounce and display). The time bus crosses with a toggle handshake.
+- **📡 Constraints**: XDC for package pins, LVCMOS33, and a 10 ns primary clock.
+- **🔬 Verification**: 11 self-checking testbenches for FSM arcs, UART bit timing, debounce, and the top-level alarm path.
+
+**Technologies**: `Verilog` `FSM` `XDC` `Clocking Wizard` `UART` `CDC`
+
+---
+
+### ⚙️ Sensor interface FSMs
+**Pulse-width measurement and a checksummed sensor read**
+
+- **🎯 Design**: Timing-accurate Verilog FSMs for an ultrasonic ranger and a digital temperature-humidity sensor.
+- **🔬 Verification**: RTL simulation on a 50 MHz clock, including the checksum check.
+
+**Technologies**: `Verilog` `FSM` `RTL simulation`
+
+---
+
+### 🛰️ [CubeSat ADCS testbed](https://github.com/AffanMhz/Learn_Sat_basics)
+**Earlier work, still the best debug story I had before RTL**
+
+> Yaw drift, then a timestamp mixed across cycles. Same habit as a failing testbench.
+
+- **🎯 What it was**: Yaw estimation and PD stabilization with an MPU-9250, complementary / Madgwick / Mahony filters, and LoRa telemetry.
+- **⚡ Result**: Yaw drift went from about 5-10°/min to under 0.05°/min after the filter and the magnetometer path were fixed.
+- **🔬 Same kind of chase**: At IIT Delhi, a DW1000 timestamp mixed across cycles (`DX_TIME`) took a thousands-of-metres ranging error back to sub-metre.
+
+**Technologies**: `IMU` `LoRa` `STM32` `SPI` `Python logs`
+
+---
+
+## 🧑‍💼 Experience, Training and Leadership
+
+### Experience
+
+- **Research Intern, IIT Delhi, MDIT Lab (SeNSE)** (May to Aug 2026): wrote a register-level DW1000 SPI driver (RF configuration, CPLOCK-gated dual-speed SPI), ran SS-TWR/DS-TWR ranging on an STM32, traced a thousand-metre ranging error to timestamps mixed across cycles (fixed with delayed transmission on `DX_TIME`), and fused BNO055 IMU data with ZUPT dead-reckoning, validated with Python logs.
+- **Embedded System Engineer Intern, Flywheel Aerospace** (Oct 2024 to May 2026): C/C++ firmware on ESP32 and STM32 for several robotics projects (sensors, motors, encoders, displays), plus a nanosatellite On-Board Computer (OBC): peripheral interfacing, sensor and communication integration, data handling, and hardware/firmware testing.
+- **India Space Lab, Summer Internship and Technical Training** (online, 17 Jun to 31 Jul 2026): drone technology, CanSat/CubeSat, remote sensing and GIS, rocketry. Submitted reports on PID tuning for drone altitude and autonomous navigation (Python), a CanSat ground-control dashboard, and a SimScale structural analysis of a rocket fin.
+
+### Training and leadership
+
+- **Workshop trainer, Jamia Millia Islamia**: appointed trainer for two official workshops, Robotics and Drone Technology & Flight Training. Before that, 6 months of drone flight training at [Bamboo Copter](https://bamboocopter.in/about-us/).
+- **Tech Team Head, IEEE JMI.**
+- **Captain, Department Volleyball Team.**
 
 ---
 
@@ -154,80 +177,57 @@ class SpaceEngineer:
 
 ---
 
-## 🌌 Fun Facts About This Space Engineer
+## 🌌 A few things that are actually true
 
-- **🔴** I genuinely believe the first person to debug code on Mars has probably already been born
-- **🛰️** I can calculate orbital periods in my head (seriously, try me with any planet!)
-- **⚡** My code has been tested in conditions ranging from -40°C to +85°C (space is harsh!)
-- **📡** I once stayed up 72 hours straight troubleshooting why a gyroscope was drifting... turned out it needed calibration
-- **🌍** I track the ISS daily and wave when it passes overhead (the astronauts probably don't see me, but I like to think they appreciate the gesture)
-- **🚀** My dream vacation destination is the Lagrange Point L1 - perfect view of both Earth and the Sun
-- **🔧** I believe every embedded system should be designed as if it might one day operate in the vacuum of space
-- **📚** I read mission reports from Apollo, Voyager, and Mars rover missions for fun
-- **⭐** I can name more exoplanets than most people can name countries
-- **🌌** When people ask me what I do, I say "I write code that works in places where humans can't survive"
+- **🔴** The parallel INT8 layer uses 16 DSP48E1 and is slower than the folded layer with 1 DSP. Four DSPs in series lost to a shorter path.
+- **🛰️** I can say what failed: both netlists miss a 10 ns clock. 57.4 MHz and 90.9 MHz are the measured Fmax values, not a timing-closed design.
+- **⚡** A test passes only when the hex matches the Python model. 10,000 vectors, 40,000 outputs, 0 mismatches.
+- **📡** The 72-hour gyroscope story was real. The fix was calibration, not a new algorithm.
+- **🔧** I still track the ISS. The job I am applying for now is RTL, a testbench, or a timing report.
 
 ---
 
-## 🎯 Mission Objectives 2024-2025
+## 🎯 What I am doing now
 
 ```python
 mission_goals = {
-    "technical": [
-        "🛰️ Contribute to open-source CubeSat flight software",
-        "🤖 Develop AI-powered autonomous navigation for rovers",
-        "🔧 Master advanced embedded systems for extreme environments",
-        "📡 Build mesh networking protocols for Mars communication"
+    "rtl": [
+        "Pipeline the parallel INT8 neuron so Fmax is not stuck on four DSPs in series",
+        "Move weights out of DONT_TOUCH registers and into a load path",
+        "Add a second clock-domain design with an explicit synchronizer and a failing case",
     ],
-    "exploration": [
-        "🚀 Collaborate on actual space missions (fingers crossed!)",
-        "🌌 Attend space technology conferences and hackathons",
-        "📊 Publish research on space systems optimization",
-        "🎓 Mentor the next generation of space engineers"
+    "verification": [
+        "Keep a golden model next to every datapath, not only a waveform",
+        "Learn assertion checks on the FSMs I already have",
     ],
-    "personal": [
-        "📖 Complete my collection of every Apollo mission technical report",
-        "🏗️ Build a full-scale mission control replica in my garage",
-        "🎮 Create the most accurate space exploration simulation game ever",
-        "🌟 Finally visit Kennedy Space Center and geek out completely"
-    ]
+    "looking_for": [
+        "An internship in RTL design or FPGA verification",
+    ],
 }
 ```
 
 ---
 
-## 🚀 Let's Connect & Explore the Cosmos Together!
+## 🚀 Let's connect
 
 <div align="center">
 
-**"The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever."** - Konstantin Tsiolkovsky
+I am looking for an internship where the work is RTL, a testbench, or a timing report. The satellite projects are real. They are not the job I am applying for now.
 
-Whether you want to discuss the latest advances in propulsion technology, collaborate on space systems, or just chat about why Europa might be humanity's next home, I'm always excited to connect with fellow space enthusiasts and engineers!
-
-### 📬 Reach Me At:
+### 📬 Reach me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Affan2304788@st.iitb.ac.in)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:affan2304788@st.jmi.ac.in)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
-
-
 
 [![Contact Me](https://img.shields.io/badge/-Contact%20Me-blue?style=for-the-badge&logo=googleforms&logoColor=white)](https://forms.gle/Yiuq2CYsoSZvgQ1RA)
 
-
-
-### 🌟 Current Status:
+### 🌟 Current status
 ```
-🔭 Currently working on: Next-gen ADCS algorithms for interplanetary missions
-🌱 Learning: Advanced orbital mechanics and space nuclear propulsion
-👥 Looking to collaborate on: Open-source space technology projects
-💬 Ask me about: Embedded systems, space technology, or why Pluto is still a planet in my heart
-⚡ Fun fact: I've calculated the exact delta-v needed to get from Earth to every planet in our solar system
-🎯 2024 Goal: Launch my first piece of code into actual space!
+Currently working on: INT8 datapath, parallel vs folded, and the Basys 3 clock
+Learning: setup/hold from real Vivado paths, not from a slide
+Looking to collaborate on: RTL blocks with a checker, not a demo-only waveform
+Ask me about: why 16 DSPs were slower than 1 DSP on that Artix-7 netlist
 ```
-
----
-
-*"Per aspera ad astra" - Through adversity to the stars* ⭐
 
 </div>
 
@@ -235,10 +235,8 @@ Whether you want to discuss the latest advances in propulsion technology, collab
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Keep%20Looking%20Up!&fontSize=20&fontColor=ffffff)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=RTL%20first&fontSize=20&fontColor=ffffff)
 
-**Thanks for visiting my corner of the GitHub universe! 🌌**
-
-*Remember: Every great space mission started with someone crazy enough to believe it was possible.*
+**Thanks for reading.**
 
 </div>
