@@ -1,242 +1,348 @@
-# 🚀 Affan - RTL Design & FPGA
-
 <div align="center">
 
-![Header](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+# Affan Danish
 
-<h3>🛰️ Verilog | SystemVerilog | Vivado | Functional Verification</h3>
+### Embedded Systems · Robotics · Aerospace · RTL/FPGA · Sensor Fusion
 
-*"A passing waveform is not a passing design. The checker, the golden model, and the timing report have to agree."*
+I build systems that connect **physical hardware, firmware, digital logic and data**.
 
-[![GitHub followers](https://img.shields.io/github/followers/AffanMhz?label=Followers&style=social)](https://github.com/AffanMhz)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:affan2304788@st.jmi.ac.in)
+<p>
+  <a href="https://github.com/AffanMhz"><img src="https://img.shields.io/badge/GitHub-AffanMhz-181717?style=for-the-badge&logo=github"></a>
+  <a href="https://www.linkedin.com/in/affan-danish-08a144353/"><img src="https://img.shields.io/badge/LinkedIn-Affan%20Danish-0A66C2?style=for-the-badge&logo=linkedin"></a>
+  <a href="mailto:danishaffan678@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail"></a>
+  <a href="https://affanmhz.github.io/"><img src="https://img.shields.io/badge/Portfolio-affanmhz.github.io-222222?style=for-the-badge&logo=github-pages"></a>
+</p>
 
+<p>
+  <img src="https://img.shields.io/badge/Verilog%20%7C%20SystemVerilog-RTL%20Design-1C3A6E?style=flat-square">
+  <img src="https://img.shields.io/badge/STM32%20%7C%20ESP32-Firmware-03234B?style=flat-square">
+  <img src="https://img.shields.io/badge/UWB%20%7C%20IMU-Localization-6A1B9A?style=flat-square">
+  <img src="https://img.shields.io/badge/Drones%20%7C%20Satellites-Aerospace-0B6623?style=flat-square">
+</p>
 
 </div>
 
 ---
 
-## 👨‍🚀 About Me
+## Who I am
 
-I'm an **Electronics and Communication** student at Jamia Millia Islamia, pointed at **RTL design and FPGA**. I write synchronous datapaths and control FSMs in Verilog and SystemVerilog, check them with a testbench or a Python golden model, and read the Vivado post-route report before I call a block done.
+I am an Electronics and Communication Engineering student at **Jamia Millia
+Islamia, New Delhi**, working across embedded systems, robotics, aerospace
+electronics and digital hardware.
 
-I interned as an embedded engineer at Flywheel Aerospace (Oct 2024 to May 2026) and did research at IIT Delhi's MDIT Lab (SeNSE) in 2026. I lead the tech team of IEEE JMI. The CubeSat ADCS work and the IIT Delhi ranging debug are still here. Both were a wrong number chased down to the cycle that produced it. That is the same job as a failing testbench.
+My work has ranged from writing register-level drivers for a DW1000 UWB
+transceiver at **IIT Delhi's MDIT Lab (SeNSE)** to building STM32/ESP32
+robotics systems at **Flywheel Aerospace**, validating an Arduino-based
+one-axis ADCS testbed, and designing RTL datapaths and processors for FPGA.
 
-```python
-class RtlDesigner:
-    def __init__(self):
-        self.name = "Affan"
-        self.focus = "RTL design and functional verification"
-        self.core_skills = ["Verilog", "SystemVerilog", "Vivado", "Python golden models"]
-        self.philosophy = "If the hex files differ by one word, the test fails"
+I care about the boundary between an idea and a working system:
 
-    def current_projects(self):
-        return [
-            "INT8 MAC and 4x4 dense layer, bit-exact against Python",
-            "RV32I single-cycle CPU, ModelSim",
-            "9x9 maze explorer FSM, explore then shortest exit",
-            "Basys 3 clock, stopwatch, and alarm (FSM, XDC, UART)",
-        ]
+- a sensor driver that survives real timing and bus constraints;
+- a ranging system that works in a GPS-denied environment;
+- an attitude-estimation loop whose drift can be measured and explained;
+- an RTL block whose checker, waveform and timing report agree;
+- a workshop where students learn by assembling, testing and debugging real hardware.
+
+> **A demo is the beginning. A measured, repeatable and explainable system is the result.**
+
+---
+
+## Engineering focus
+
+| Area | What I work on |
+|---|---|
+| **Embedded firmware** | STM32, ESP32, Arduino, Embedded C/C++, HAL, bare-metal drivers, interrupts, timers, PWM, ADC and watchdog-oriented systems |
+| **Interfaces and buses** | SPI, I2C, UART, GPIO, Bluetooth, Wi-Fi, ESP-NOW, LoRa, ELRS and serial telemetry |
+| **Localization and sensing** | DW1000/DWM1000 UWB ranging, GPS-denied positioning, magnetic-induction positioning, IMUs, barometers, GPS and sensor fusion |
+| **Robotics** | Motors, encoders, servo control, obstacle avoidance, line following, wireless control, actuator integration and field debugging |
+| **Aerospace systems** | One-axis ADCS, CubeSat concepts, nanosatellite OBC documentation, telemetry, drones, CanSat, rocketry and mission systems |
+| **RTL and FPGA** | Verilog, SystemVerilog, FSMs, datapaths, RV32I, FPGA prototyping, UART, CDC, XDC constraints and timing analysis |
+| **Verification and analysis** | Self-checking testbenches, Python golden models, randomized vectors, serial logging, plotting, MATLAB-style analysis and hardware validation |
+
+---
+
+## Current RTL philosophy — in Verilog, not Python
+
+```systemverilog
+module design_is_not_done;
+    logic checker_passed, timing_closed, hardware_validated;
+    logic design_complete;
+
+    assign design_complete = checker_passed
+                           && timing_closed
+                           && hardware_validated;
+
+    // A waveform that looks correct is evidence, not a proof.
+endmodule
+```
+
+For firmware and hardware, I follow the same rule:
+
+```systemverilog
+always_ff @(posedge clk) begin
+    if (rst) begin
+        state <= IDLE;
+    end else begin
+        state <= next_state;
+    end
+end
+
+assert property (@(posedge clk) disable iff (rst)
+    state != ERROR |-> ##1 valid_output);
 ```
 
 ---
 
-## 🛠️ Technical Arsenal
+## Experience
+
+### Research Intern — MDIT Lab, SeNSE, IIT Delhi
+**May–August 2026 · Embedded systems, UWB localization and sensor fusion**
+
+- Implemented a register-level **DW1000/DWM1000 SPI driver** on STM32G070RB.
+- Worked through RF initialization, register/sub-register addressing and
+  CPLOCK-gated dual-speed SPI operation.
+- Implemented and debugged **SS-TWR/DS-TWR** ranging using the
+  POLL–RESPONSE–FINAL exchange.
+- Traced a kilometre-scale ranging failure to timestamps being mixed across
+  transmission cycles and corrected delayed-transmission timing through
+  `DX_TIME`.
+- Integrated a BNO055 IMU and worked on IMU-based ZUPT dead reckoning.
+- Built Python serial-logging and plotting workflows for repeatable analysis.
+- Studied UWB and magnetic-induction approaches for localization in
+  GPS-denied drone and robotics environments.
+
+### Embedded Systems Engineer (part-time) — Flywheel Aerospace
+**October 2024–May 2026 · Robotics, aerospace electronics and firmware**
+
+- Developed and tested C/C++ firmware for ESP32, STM32 and Arduino-based
+  robotics and aerospace prototypes.
+- Worked with sensors, motors, encoders, displays, wireless links and
+  actuator-control systems.
+- Contributed to nanosatellite **on-board computer (OBC)** documentation and
+  a one-axis ADCS testbed.
+- Built and debugged wireless communication paths over Bluetooth and Wi-Fi,
+  moved to **ESP-NOW** for improved data rate, and later evaluated **LoRa**
+  for long-range and efficient telemetry.
+- Interfaced EMG sensors to control servo motors using hand gestures.
+- Worked on educational robotics kits as well as real-world engineering
+  prototypes, including client communication and technical explanation.
+- Used STM32CubeIDE, STM32 HAL, Blue Pill and Nucleo boards, ST-LINK and
+  practical hardware bring-up workflows.
+
+### India Space Lab — Summer Internship and Technical Training
+**June–July 2026 · Drones, satellites, remote sensing and rocketry**
+
+- Studied drone technology, CanSat/CubeSat systems, remote sensing, GIS and
+  rocketry.
+- Worked on PID-based drone altitude control and autonomous navigation
+  analysis in Python.
+- Developed a CanSat ground-control dashboard concept.
+- Performed a SimScale structural study of a rocket fin.
+- Built wider working knowledge of orbiters, landers, Apollo missions,
+  launch systems, rocket engines and mission architecture.
+
+---
+
+## Selected engineering work
+
+### UWB two-way ranging and GPS-denied localization
+
+An embedded ranging platform built around STM32 and a DW1000/DWM1000 UWB
+module. The project combined register-level firmware, RF configuration, SPI
+timing, two-way ranging, serial data capture and IMU-based motion analysis.
+
+**Stack:** `Embedded C` `STM32G070RB` `DW1000` `SPI` `UART` `BNO055` `Python`
+
+### One-axis ADCS testbed
+
+A ground-based attitude-determination and control testbed using an Arduino
+Nano, MPU-9250 IMU and LoRa telemetry. The work covered attitude sensing,
+roll/pitch/yaw estimation, gyroscope integration, calibration, control-signal
+generation and wireless telemetry.
+
+I worked with complementary, Madgwick and Mahony-style estimation approaches
+and investigated drift caused by calibration and magnetometer-path issues.
+
+**Stack:** `Arduino Nano` `MPU-9250` `IMU` `ADCS` `PD control` `LoRa`
+
+### INT8 MAC and 4×4 dense layer
+
+SystemVerilog datapaths verified against a Python integer reference model.
+
+- Signed INT8 multiplication with 16-bit products and 32-bit accumulation.
+- Directed corner cases including `-128 × 127`, `-128 × -128` and ReLU clamp.
+- 10,000 randomized vectors and 40,000 output comparisons with **0 mismatches**.
+- Parallel implementation: 16 DSP48E1 blocks, one-cycle compute, 57.4 MHz Fmax.
+- Folded implementation: one DSP48E1, 17-cycle FSM, 90.9 MHz Fmax.
+- Both results missed the 100 MHz target; the timing miss is documented rather
+  than hidden.
+
+**Stack:** `SystemVerilog` `Python` `Vivado` `Icarus Verilog` `DSP48E1`
+
+### RV32I single-cycle CPU
+
+A Verilog CPU datapath with program counter, instruction memory, register
+file, immediate generator, ALU, data memory, main decoder and ALU decoder.
+The testbench exercised integer operations, loads, stores, branches and jumps
+in ModelSim.
+
+### Basys 3 digital clock, stopwatch and alarm
+
+A multi-clock RTL system with BCD timekeeping, stopwatch states
+(`IDLE`, `RUN`, `LAP`, `STOP`), alarm control, 7-segment multiplexing and an
+8N1 UART at 115200 baud. The design includes XDC constraints, Clocking Wizard
+outputs, debounce logic and a toggle-handshake crossing for the time bus.
+
+### FPGA maze explorer
+
+A dual-mode Verilog FSM that explores a 9×9 maze using wall sensors, stores
+cell information and then computes an exit path. It handles dead ends,
+intersection memory, coordinate tracking, backtracking and five movement
+commands.
+
+---
+
+## Robotics, drones and wireless systems
+
+My embedded work has included:
+
+- motor drivers, encoders, servo motors and display interfaces;
+- line-following and obstacle-avoidance robots;
+- Bluetooth, Wi-Fi, ESP-NOW and LoRa telemetry;
+- EMG-controlled gesture interfaces;
+- IMU drivers and attitude estimation;
+- GPS, barometer and multi-sensor integration;
+- drone protocols and ecosystems including **ELRS**;
+- drone flight and hands-on systems training;
+- serial tools and **Serial Lab** for observing, logging and understanding
+  real hardware communication.
+
+---
+
+## Workshop trainer and technical educator
+
+### D.A.R.E. Workshop Series — Jamia Millia Islamia
+
+I was selected as a trainer for two official **Drone and Robotics Electrical
+(D.A.R.E.)** workshops organized by the Department of Electrical Engineering,
+Faculty of Engineering and Technology, Jamia Millia Islamia.
+
+1. **Arduino and Robotics Workshop** — practical electronics, Arduino,
+   sensors, motor control, Bluetooth communication, assembly, debugging and
+   robot testing.
+2. **Drone Workshop** — drone fundamentals, components, flight systems,
+   practical demonstrations and technical orientation.
+
+The workshops were built around hands-on learning, trial-and-error debugging
+and making students assemble and test systems themselves. Trainer feedback
+was rated **4.71/5 for the first workshop** and **5/5 for the drone workshop**.
+
+Feedback highlighted that I was well prepared, patient, engaging,
+knowledgeable and willing to repeat explanations in English so students
+from different language backgrounds could participate. Students specifically
+mentioned clear explanations, calm implementation support and learning
+through experimentation.
+
+Learn more: [D.A.R.E. Workshop Series](https://www.linkedin.com/company/dare-workshop/)
+· [Jamia Millia Islamia](https://www.linkedin.com/in/jmiofficial/)
+
+### Bamboo Copter — six-month drone training
+
+Completed approximately six months of hands-on drone training with
+[Bamboo Copter](https://bamboocopter.in/about-us/), covering drone technology,
+flight, systems, practical assembly and the wider drone ecosystem. Bamboo
+Copter combines drone education, workshops, competitions and product
+development to make drone technology more accessible.
+
+---
+
+## Leadership and communities
+
+- **Head, Technical Team — IEEE JMI**
+- **Trainer — D.A.R.E. Workshop Series, Jamia Millia Islamia**
+- **Captain — Department Volleyball Team**
+- Participant in hackathons and engineering challenges, including Hack JMI,
+  Smart India Hackathon-related work and ISRO hackathon activities.
+- In ISRO-related work, explored improving planetary-surface mapping using
+  multiple data sources such as SAR and hyperspectral imagery with machine
+  learning and data fusion concepts.
+
+---
+
+## Tools and technologies
 
 <div align="center">
 
-### 🔧 HDL and FPGA
-![Verilog](https://img.shields.io/badge/-Verilog-1C3A6E?style=flat)
-![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-0B3D91?style=flat)
-![Vivado](https://img.shields.io/badge/-Xilinx_Vivado-E31C23?style=flat)
-![Artix7](https://img.shields.io/badge/-Artix--7-333333?style=flat)
+### Embedded and hardware
 
-### 🐍 Verification and scripting
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
-![Icarus](https://img.shields.io/badge/-Icarus_Verilog-555555?style=flat)
-![ModelSim](https://img.shields.io/badge/-ModelSim-0077C8?style=flat)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks)
 
-### 🚀 Still on the bench
-![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
-![SPI](https://img.shields.io/badge/-SPI_%7C_I2C_%7C_UART-444444?style=flat)
-![KiCad](https://img.shields.io/badge/-KiCad-314CB0?style=flat)
-![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
+### Digital design
+
+![Verilog](https://img.shields.io/badge/Verilog-1C3A6E?style=flat-square)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-0B3D91?style=flat-square)
+![Vivado](https://img.shields.io/badge/Vivado-E31C23?style=flat-square)
+![ModelSim](https://img.shields.io/badge/ModelSim-0077C8?style=flat-square)
+![Icarus Verilog](https://img.shields.io/badge/Icarus%20Verilog-555555?style=flat-square)
+
+### Interfaces, sensing and communications
+
+`SPI` `I2C` `UART` `GPIO` `PWM` `ADC` `DMA` `UWB` `IMU` `GPS`
+`Barometer` `Bluetooth` `Wi-Fi` `ESP-NOW` `LoRa` `ELRS`
 
 </div>
 
 ---
 
-## 🌟 Featured Projects
+## What I am building next
 
-### 🛰️ INT8 MAC and 4x4 dense layer
-**Golden-model verification, then two microarchitectures in Vivado**
+```verilog
+module next_iteration;
+    logic add_sva;
+    logic close_timing;
+    logic build_real_hil;
+    logic improve_documentation;
 
-> The testbench prints a pass only when every output word matches the Python integer model.
+    assign engineering_growth = add_sva
+                              && close_timing
+                              && build_real_hil
+                              && improve_documentation;
+endmodule
+```
 
-- **🎯 Design**: Signed INT8 multiply-accumulate (16-bit product, 32-bit accumulator), a 4-tap ReLU neuron, and a 4x4 layer in SystemVerilog.
-- **🔬 Verification**: Directed corners (`-128 * 127`, `-128 * -128`, ReLU clamp) plus 10,000 random vectors. 40,000 outputs, **0 mismatches**.
-- **⚙️ Implementation**: Artix-7 `xc7a35tcpg236-1`, 10 ns constraint, out-of-context.
-- **📊 Result**: Parallel maps to **16 DSP48E1**, 1-cycle compute, Fmax **57.4 MHz** (four DSPs in series on the critical path). Folded maps to **1 DSP48E1** and a 17-cycle FSM, Fmax **90.9 MHz**. Neither netlist meets 100 MHz. That miss is part of the result.
-
-**Technologies**: `SystemVerilog` `Python` `Vivado` `Icarus Verilog` `DSP48E1`
-
----
-
-### 🖥️ RV32I single-cycle CPU
-**Datapath and control, checked in ModelSim**
-
-> Every instruction finishes in one clock: fetch, decode, execute, memory, write-back.
-
-- **🎯 Design**: Program counter, instruction memory, 32×32 register file, immediate generator, ALU, data memory, and a split control unit (main decoder and ALU decoder).
-- **🔬 What it runs**: RV32I integer ops, loads and stores, branches, and jumps. Control mapping is the usual one: `lw` writes from memory, `sw` asserts MemWrite, `beq` redirects on Zero, `jal` writes PC+4.
-- **📊 Verification**: A cycle-accurate testbench ran a RISC-V assembly program. ALU results, register writes, memory, and PC updates were checked in ModelSim. There is no synthesis or Fmax number for this core.
-
-**Technologies**: `Verilog` `RV32I` `Datapath` `Control unit` `ModelSim`
+- Pipeline the parallel INT8 datapath and investigate the critical path.
+- Add assertions, coverage and stronger randomized verification to existing
+  RTL blocks.
+- Build an explicit CDC/FIFO design with a reproducible failing case.
+- Extend embedded work toward RTOS scheduling, DMA, CAN and hardware-in-loop
+  validation.
+- Keep turning aerospace and robotics ideas into measurable systems.
 
 ---
 
-### 🧭 9×9 maze explorer
-**One FSM explores, then takes the exit**
+## Open to
 
-> Unknown maze. Three wall sensors. Five move commands.
-
-- **🎯 Design**: Dual-mode Verilog FSM. Explore mode marks cells in a weight matrix. Exit mode follows that matrix. One counter covers boot delay, dead-ends, and the mode switch. Moves are stop, forward, left, right, and u-turn.
-- **🔬 Verification**: ModelSim run of a full explore-and-exit on the maze in the testbench. Fixed 9×9 grid. No timing report.
-
-**Technologies**: `Verilog` `FSM` `ModelSim`
-
----
-
-### ⏱️ Digital clock, stopwatch, and alarm
-**Multi-clock RTL on a Basys 3**
-
-> Milliseconds, a lap timer, and an alarm, on a 4-digit display and a UART line.
-
-- **🎯 Design**: BCD timebase, stopwatch FSM (`IDLE / RUN / LAP / STOP`), alarm FSM, multiplexed 7-segment scan, 8N1 UART at 115200 baud.
-- **⚡ Clocking**: Clocking Wizard divides 100 MHz into 20 MHz (datapath and UART) and 10 MHz (debounce and display). The time bus crosses with a toggle handshake.
-- **📡 Constraints**: XDC for package pins, LVCMOS33, and a 10 ns primary clock.
-- **🔬 Verification**: 11 self-checking testbenches for FSM arcs, UART bit timing, debounce, and the top-level alarm path.
-
-**Technologies**: `Verilog` `FSM` `XDC` `Clocking Wizard` `UART` `CDC`
-
----
-
-### ⚙️ Sensor interface FSMs
-**Pulse-width measurement and a checksummed sensor read**
-
-- **🎯 Design**: Timing-accurate Verilog FSMs for an ultrasonic ranger and a digital temperature-humidity sensor.
-- **🔬 Verification**: RTL simulation on a 50 MHz clock, including the checksum check.
-
-**Technologies**: `Verilog` `FSM` `RTL simulation`
-
----
-
-### 🛰️ [CubeSat ADCS testbed](https://github.com/AffanMhz/Learn_Sat_basics)
-**Earlier work, still the best debug story I had before RTL**
-
-> Yaw drift, then a timestamp mixed across cycles. Same habit as a failing testbench.
-
-- **🎯 What it was**: Yaw estimation and PD stabilization with an MPU-9250, complementary / Madgwick / Mahony filters, and LoRa telemetry.
-- **⚡ Result**: Yaw drift went from about 5-10°/min to under 0.05°/min after the filter and the magnetometer path were fixed.
-- **🔬 Same kind of chase**: At IIT Delhi, a DW1000 timestamp mixed across cycles (`DX_TIME`) took a thousands-of-metres ranging error back to sub-metre.
-
-**Technologies**: `IMU` `LoRa` `STM32` `SPI` `Python logs`
-
----
-
-## 🧑‍💼 Experience, Training and Leadership
-
-### Experience
-
-- **Research Intern, IIT Delhi, MDIT Lab (SeNSE)** (May to Aug 2026): wrote a register-level DW1000 SPI driver (RF configuration, CPLOCK-gated dual-speed SPI), ran SS-TWR/DS-TWR ranging on an STM32, traced a thousand-metre ranging error to timestamps mixed across cycles (fixed with delayed transmission on `DX_TIME`), and fused BNO055 IMU data with ZUPT dead-reckoning, validated with Python logs.
-- **Embedded System Engineer Intern, Flywheel Aerospace** (Oct 2024 to May 2026): C/C++ firmware on ESP32 and STM32 for several robotics projects (sensors, motors, encoders, displays), plus a nanosatellite On-Board Computer (OBC): peripheral interfacing, sensor and communication integration, data handling, and hardware/firmware testing.
-- **India Space Lab, Summer Internship and Technical Training** (online, 17 Jun to 31 Jul 2026): drone technology, CanSat/CubeSat, remote sensing and GIS, rocketry. Submitted reports on PID tuning for drone altitude and autonomous navigation (Python), a CanSat ground-control dashboard, and a SimScale structural analysis of a rocket fin.
-
-### Training and leadership
-
-- **Workshop trainer, Jamia Millia Islamia**: appointed trainer for two official workshops, Robotics and Drone Technology & Flight Training. Before that, 6 months of drone flight training at [Bamboo Copter](https://bamboocopter.in/about-us/).
-- **Tech Team Head, IEEE JMI.**
-- **Captain, Department Volleyball Team.**
-
----
-
-## 📈 GitHub Analytics
+- Embedded firmware and embedded systems roles
+- Robotics and UAV systems
+- Aerospace electronics, avionics and flight systems
+- UWB, wireless localization and sensor-fusion research
+- RTL design, FPGA and digital verification
+- Hardware bring-up, validation and technical systems engineering
+- Collaborations involving real hardware, a checker and a timing report
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AffanMhz&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866)
+### Let us build something that survives contact with hardware.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AffanMhz&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AffanMhz&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866)
-
-</div>
-
----
-
-## 🌌 A few things that are actually true
-
-- **🔴** The parallel INT8 layer uses 16 DSP48E1 and is slower than the folded layer with 1 DSP. Four DSPs in series lost to a shorter path.
-- **🛰️** I can say what failed: both netlists miss a 10 ns clock. 57.4 MHz and 90.9 MHz are the measured Fmax values, not a timing-closed design.
-- **⚡** A test passes only when the hex matches the Python model. 10,000 vectors, 40,000 outputs, 0 mismatches.
-- **📡** The 72-hour gyroscope story was real. The fix was calibration, not a new algorithm.
-- **🔧** I still track the ISS. The job I am applying for now is RTL, a testbench, or a timing report.
-
----
-
-## 🎯 What I am doing now
-
-```python
-mission_goals = {
-    "rtl": [
-        "Pipeline the parallel INT8 neuron so Fmax is not stuck on four DSPs in series",
-        "Move weights out of DONT_TOUCH registers and into a load path",
-        "Add a second clock-domain design with an explicit synchronizer and a failing case",
-    ],
-    "verification": [
-        "Keep a golden model next to every datapath, not only a waveform",
-        "Learn assertion checks on the FSMs I already have",
-    ],
-    "looking_for": [
-        "An internship in RTL design or FPGA verification",
-    ],
-}
-```
-
----
-
-## 🚀 Let's connect
-
-<div align="center">
-
-I am looking for an internship where the work is RTL, a testbench, or a timing report. The satellite projects are real. They are not the job I am applying for now.
-
-### 📬 Reach me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affan-danish-08a144353/)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:affan2304788@st.jmi.ac.in)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AffanMhz)
-
-[![Contact Me](https://img.shields.io/badge/-Contact%20Me-blue?style=for-the-badge&logo=googleforms&logoColor=white)](https://forms.gle/Yiuq2CYsoSZvgQ1RA)
-
-### 🌟 Current status
-```
-Currently working on: INT8 datapath, parallel vs folded, and the Basys 3 clock
-Learning: setup/hold from real Vivado paths, not from a slide
-Looking to collaborate on: RTL blocks with a checker, not a demo-only waveform
-Ask me about: why 16 DSPs were slower than 1 DSP on that Artix-7 netlist
-```
-
-</div>
-
----
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=RTL%20first&fontSize=20&fontColor=ffffff)
-
-**Thanks for reading.**
+<a href="mailto:danishaffan678@gmail.com">Email</a> ·
+<a href="https://www.linkedin.com/in/affan-danish-08a144353/">LinkedIn</a> ·
+<a href="https://github.com/AffanMhz">GitHub</a> ·
+<a href="https://affanmhz.github.io/">Portfolio</a>
 
 </div>
