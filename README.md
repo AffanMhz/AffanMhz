@@ -10,7 +10,8 @@ I build systems that connect **physical hardware, firmware, digital logic and da
   <a href="https://github.com/AffanMhz"><img src="https://img.shields.io/badge/GitHub-AffanMhz-181717?style=for-the-badge&logo=github"></a>
   <a href="https://www.linkedin.com/in/affan-danish-08a144353/"><img src="https://img.shields.io/badge/LinkedIn-Affan%20Danish-0A66C2?style=for-the-badge&logo=linkedin"></a>
   <a href="mailto:danishaffan678@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail"></a>
-  <a href="https://affanmhz.github.io/"><img src="https://img.shields.io/badge/Portfolio-affanmhz.github.io-222222?style=for-the-badge&logo=github-pages"></a>
+  <a href="https://affan-danish-embedded.netlify.app/"><img src="https://img.shields.io/badge/Embedded%20Portfolio-0F766E-222222?style=for-the-badge&logo=netlify"></a>
+  <a href="https://affan-danish-digital-fpga.netlify.app/"><img src="https://img.shields.io/badge/RTL%20%2F%20FPGA%20Portfolio-0E7490-222222?style=for-the-badge&logo=netlify"></a>
 </p>
 
 <p>
@@ -343,6 +344,7 @@ endmodule
 <a href="mailto:danishaffan678@gmail.com">Email</a> ·
 <a href="https://www.linkedin.com/in/affan-danish-08a144353/">LinkedIn</a> ·
 <a href="https://github.com/AffanMhz">GitHub</a> ·
-<a href="https://affanmhz.github.io/">Portfolio</a>
+<a href="https://affan-danish-embedded.netlify.app/">Embedded portfolio</a> ·
+<a href="https://affan-danish-digital-fpga.netlify.app/">RTL / FPGA portfolio</a>
 
 </div>
